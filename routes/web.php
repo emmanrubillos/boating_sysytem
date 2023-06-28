@@ -25,3 +25,7 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function (){
 
 
 });
+
+Route::get('/users', function () {
+    return view('users');
+});

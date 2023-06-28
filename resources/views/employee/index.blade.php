@@ -155,7 +155,7 @@
                                     <td>'+item.id+'</td>\
                                     <td>'+item.name+'</td>\
                                     <td>'+item.phone+'</td>\
-                                    <td><img src="uploads/employee/'+item.image+'" width="50px" height="50px" alt="image"></td>\
+                                    <td><img src="https://boatingsystem.maruhere.com/uploads/employee/'+item.image+'" width="50px" height="50px" alt="image"></td>\
                                     <td><button type="button" value="'+item.id+'" class="edit_btn btn btn-success btn-sm">Edit</button></td>\
                                     <td><button type="button" value="'+item.id+'" class="delete_btn btn btn-danger btn-sm">Delete</button></td>\
                                 </tr>');
